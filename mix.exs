@@ -22,7 +22,7 @@ defmodule Tikentoken.MixProject do
 
   defp package do
     [
-      licenses: ["Affero GPLv3"],
+      licenses: ["AGPL-3.0"],
       links: %{"GitHub" => "https://github.com/florinpatrascu/tikentoken"}
     ]
   end
