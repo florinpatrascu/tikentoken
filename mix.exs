@@ -44,7 +44,8 @@ defmodule Tikentoken.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:req, "~> 0.5.15"}
+      {:req, "~> 0.5.15"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end
